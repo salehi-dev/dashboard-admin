@@ -58,15 +58,15 @@ const newMembers = [
   },
   {
     id: 2,
-    username: "Wakil Ahmad",
+    username: "Alexander",
     title: "Web Developer",
     img: "./images/profile2.png",
   },
   {
     id: 3,
-    username: "Farid Qatali",
+    username: "Ethan",
     title: "Mobile Developer",
-    img: "./images/logo3.png",
+    img: "./images/profile3.png",
   },
   {
     id: 4,
@@ -87,7 +87,7 @@ const transactions = [
   },
   {
     id: 2,
-    customer: "Wakil Ahmad",
+    customer: "Alexander",
     date: "23 Sep 2020",
     amount: 593,
     status: "Declined",
@@ -95,7 +95,7 @@ const transactions = [
   },
   {
     id: 3,
-    customer: "Farid Qatali",
+    customer: "Benjamin",
     date: "04 Aug 2022",
     amount: 495,
     status: "Pending",
@@ -122,7 +122,7 @@ let userRows = [
   },
   {
     id: 2,
-    username: "Wakil Ahmad",
+    username: "Alexander",
     avatar: "./images/profile2.png",
     status: "non-active",
     transaction: "$110",
@@ -130,7 +130,7 @@ let userRows = [
   },
   {
     id: 3,
-    username: "Farid Qatali",
+    username: "Benjamin",
     avatar: "./images/profile4.png",
     status: "active",
     transaction: "$98",
@@ -146,7 +146,7 @@ let userRows = [
   },
   {
     id: 5,
-    username: "Mahdi Naqizadeh",
+    username: "Charlotte",
     avatar: "./images/profile5.png",
     status: "active",
     transaction: "$55.98",
@@ -160,93 +160,99 @@ let products = [
     title: "Asus",
     avatar: "/images/product1.png",
     price: "890",
-    stock: 'No',
-    model: 'Asus ROG Series'
+    stock: "No",
+    model: "Asus ROG Series",
   },
   {
     id: 2,
     title: "Acer",
     avatar: "/images/product2.png",
     price: "933",
-    stock: 'Yes',
-    model: 'Acer Predator'
+    stock: "Yes",
+    model: "Acer Predator",
   },
   {
     id: 3,
     title: "HP",
     avatar: "/images/product3.png",
     price: "590",
-    stock: 'Yes',
-    model: 'HP Spectre x360'
+    stock: "Yes",
+    model: "HP Spectre x360",
   },
   {
     id: 4,
     title: "Dell",
     avatar: "/images/product4.png",
     price: "455",
-    stock: 'Yes',
-    model: 'Dell Alienware'
+    stock: "Yes",
+    model: "Dell Alienware",
   },
   {
     id: 5,
     title: "MacOS",
     avatar: "/images/product9.png",
     price: "1,022",
-    stock: 'Yes',
-    model: 'MacBook Pro'
+    stock: "Yes",
+    model: "MacBook Pro",
   },
   {
     id: 6,
     title: "Asus",
     avatar: "/images/product5.png",
     price: "2,465",
-    stock: 'Yes',
-    model: 'Asus VivoBook Series'
+    stock: "Yes",
+    model: "Asus VivoBook Series",
   },
   {
     id: 7,
     title: "Acer",
     avatar: "/images/product6.png",
     price: "560",
-    stock: 'No',
-    model: 'Acer Swift'
+    stock: "No",
+    model: "Acer Swift",
   },
   {
     id: 8,
     title: "MacOS",
     avatar: "/images/product7.png",
     price: "999",
-    stock: 'Yes',
-    model: 'MacBook Pro with M1 chip'
+    stock: "Yes",
+    model: "MacBook Pro with M1 chip",
   },
   {
     id: 9,
     title: "MacOS",
     avatar: "/images/product8.png",
     price: "2,344",
-    stock: 'No',
-    model: 'MacBook Air'
+    stock: "No",
+    model: "MacBook Air",
   },
 ];
 
 const productsData = [
   {
-    name: 'Jan',
-    sale: `${1140}`
+    name: "Jan",
+    sale: `${1140}`,
   },
   {
-    name: 'Feb',
-    sale: `${3500}`
+    name: "Feb",
+    sale: `${3500}`,
   },
   {
-    name: 'Mar',
-    sale: `${2475}`
+    name: "Mar",
+    sale: `${2475}`,
   },
   {
-    name: 'Mar',
-    sale: `${3575}`
+    name: "Mar",
+    sale: `${3575}`,
   },
+];
 
-]
-
-export { xAxisData, newMembers, transactions, userRows, products, productsData };
+export {
+  xAxisData,
+  newMembers,
+  transactions,
+  userRows,
+  products,
+  productsData,
+};
