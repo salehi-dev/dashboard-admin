@@ -73,3 +73,4 @@ We very much welcome your contribution, you can build together with us in the fo
 - Use Ant Design Pro in your daily work.
 - Submit [GitHub issuess](https://github.com/salehi-dev/dashboard-admin/issues) to report bugs or ask questions.
 - Propose [Pull Request](https://github.com/salehi-dev/dashboard-admin/pulls) to improve our code.
+- "I would like you to tell me about the problems I have."
