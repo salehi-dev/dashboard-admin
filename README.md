@@ -1,19 +1,19 @@
 # Preview of the Website.
 
 <div style="text-align: center;">
-    <img src="images/image1.png" width="90%" alt="view 1">
+    <img src="https://i.imgur.com/YGSUX5t.png" width="90%" alt="view 1">
 </div>
 -
 <div style="text-align: center;">
-    <img src="./images/image2.png" width="90%" alt="view 2">
+    <img src="https://i.imgur.com/9R4aLcd.png" width="90%" alt="view 2">
 </div>
 -
 <div style="text-align: center;">
-    <img src="./images/image3.png" width="90%" alt="view 3">
+    <img src="https://i.imgur.com/ukePaWZ.png" width="90%" alt="view 3">
 </div>
 -
 <div style="text-align: center;">
-    <img src="./images/image4.png" width="90%" alt="view 4">
+    <img src="blob:https://imgur.com/42fc8403-c75c-4840-b8c2-4ca8bc548691" width="90%" alt="view 4">
 </div>
 
 ---
