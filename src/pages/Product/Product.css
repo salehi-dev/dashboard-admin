@@ -1,0 +1,266 @@
+/* .product {
+  flex: 4;
+  padding: 20px;
+}
+.product-title_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-add_btn {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: teal;
+}
+.product-top {
+  display: flex
+}
+.product-top_left {
+  flex: 2;
+}
+
+.product-top_right{
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product-info_top{
+  display: flex;
+  align-items: center;
+}
+.prodoct-info_img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.product-name{
+  font-weight: 600;
+}
+.product-info_btn{
+  margin-top: 10px;
+
+}
+.product-info_item{
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 25px;
+}
+.product-info_key{
+  font-weight: 600;
+}
+.product-value{
+  font-weight: 200;
+}
+
+.product-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.product-form{
+  display: flex;
+  justify-content: space-between;
+}
+.product-form_left{
+  display: flex;
+  flex-direction: column;
+}
+.product-form_left > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+.product-form_left > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+.product-form_left > input:focus {
+  outline: none;
+}
+.product-form_left > select {
+  margin-bottom: 10px;
+}
+.product-form_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.product-uploader{
+  display: flex;
+  align-items: center;
+}
+.product-uploader_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.product-button{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+} */
+
+
+
+
+
+
+
+
+
+.product {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  color: #fff;
+  background-color: teal;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft {
+  flex: 1;
+}
+
+.productTopRight {
+  width: 360px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.productInfoImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.productName {
+  font-weight: 600;
+}
+
+.productInfoBottom {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.productInfoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.productInfoKey {
+  font-weight: 600;
+}
+
+.productInfoValue {
+  font-weight: 300;
+}
+
+.productBottom {
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.productFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft > input:focus {
+  outline: none;
+}
+
+.productFormLeft > select {
+  margin-bottom: 10px;
+}
+
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUploader {
+  display: flex;
+  align-items: center;
+}
+
+.productUploaderImg {
+  width: 140px;
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.productButton {
+  border: none;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 6px;
+  border-radius: 5px;
+  font-weight: 600;
+  width: 130px;
+  background-color: darkblue;
+  color: #fff;
+}

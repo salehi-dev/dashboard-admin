@@ -1,0 +1,56 @@
+
+@font-face {
+  font-family: 'Helvetica Neue 67 Medium Condensed Oblique';
+  src: url('../../../public/fonts/Helvetica-Neue-Regular/Helvetica-Neue-67-Medium-Condensed-Oblique.otf');
+}
+
+*{
+  margin: 0;
+  text-decoration: none;
+}
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  position: sticky;
+  top: 0px;
+  background-color: rgb(251, 251, 255);
+  font-family: 'Helvetica Neue 67 Medium Condensed Oblique';
+}
+.sidebar-wrapper {
+  padding: 14px 20px;
+  color: #555;
+}
+.sidebar-menu {
+  margin-bottom: 10px;
+}
+.sidebar-title {
+  font-size: 14px;
+  color: rgb(187, 186, 186);
+  margin-bottom: 0px;
+}
+.sidebar-list {
+  list-style: none;
+  padding: 5px 5px 1px 5px;
+  margin-bottom: 2px;
+}
+.sidebar-list_item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 8px;
+  margin: 0 0 4px 3px;
+}
+.sidebar-list_item.active, .sidebar-list_item:hover {
+  background-color: rgb(240, 240, 255);
+  color: #0d6efd;
+} 
+/* .sidebar-icon {
+  margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+} */
+/* .link {
+  text-decoration: none;
+} */
