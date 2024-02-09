@@ -1,7 +1,7 @@
 # Preview of the Website.
 
 <div style="text-align: center;">
-    <img src="./images/image1.png" width="90%" alt="view 1">
+    <img src="images/image1.png" width="90%" alt="view 1">
 </div>
 -
 <div style="text-align: center;">
