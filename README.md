@@ -11,10 +11,6 @@
 <div style="text-align: center;">
     <img src="https://i.imgur.com/ukePaWZ.png" width="90%" alt="view 3">
 </div>
--
-<div style="text-align: center;">
-    <img src="blob:https://imgur.com/42fc8403-c75c-4840-b8c2-4ca8bc548691" width="90%" alt="view 4">
-</div>
 
 ---
 
